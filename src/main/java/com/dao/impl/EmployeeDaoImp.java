@@ -6,6 +6,7 @@ import org.springframework.orm.hibernate4.HibernateTemplate;
 
 /**
  * Created by gayathri on 6/1/17.
+ * Dao file
  */
 public class EmployeeDaoImp implements EmployeeDao{
 
