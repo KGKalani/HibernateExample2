@@ -34,9 +34,15 @@
     <property name="sessionFactory" ref="mysessionFactory"></property>
 </bean>
 
-<!--<bean id="d" class="com.javatpoEmployeeDaoImpeDao">
-    <property name="template" ref="template"></property>
-</bean>-->
+<bean id="employeeDao" class="main.java.com.service.EmployeeService">
+    <property name="hibernateTemplate" ref="template"></property>
+</bean>
+
+<bean id="employeeService" class="main.java.com.service.EmployeeService">
+    <property name="employeeDao" ref="employeeDao"></property>
+</bean>
+
+
 
 
 </beans>
