@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ejb" name="HibernateProject1:EJB exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/HibernateProject1_EJB_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="HibernateProject1/ejb/EJB" />
+      <element id="module-output" name="HibernateProject1" />
+    </root>
+  </artifact>
+</component>
